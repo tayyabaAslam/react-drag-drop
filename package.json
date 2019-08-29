@@ -2,7 +2,7 @@
   "name": "drag-drop-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tayyabaAslam.github.io/react-drag-drop",
+  "homepage": "https://tayyabaaslam.github.io/react-drag-drop",
   "dependencies": {
     "@y0c/react-datepicker": "^1.0.1",
     "gh-pages": "^2.1.1",
