@@ -1,0 +1,19 @@
+.column-container {
+    display: flow;
+    background-color: #f4f5f7;
+    /*border: 1px solid skyblue;*/
+    border-radius: 5px;
+}
+.column-heading {
+    margin: 10px;
+    color: #677086;
+    font-family: "Gill Sans";
+    font-weight: 100;
+}
+.appointments-container {
+    display: flow;
+}
+
+.row {
+    margin: 10px;
+}

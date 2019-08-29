@@ -1,0 +1,11 @@
+.drag-drop-react {
+    display: flex;
+    alignment: center;
+    background: white;
+    justify-content: center;
+    padding: 20px;
+}
+
+.space {
+    width: 150px;
+}

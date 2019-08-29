@@ -1,0 +1,57 @@
+.button {
+    background-color: burlywood;
+    width: 80%;
+    /*margin: 20px 10%;*/
+}
+
+.formInput {
+    height: 20px;
+    margin: 5px;
+}
+
+.formButton {
+    margin-top: 5px;
+    height: 30px;
+    font-family: "Gill Sans";
+}
+
+.container {
+}
+
+.appointment-heading {
+    font-family: "Gill Sans";
+    color: #1C2B4B;
+    font-weight: 300;
+    text-align: left;
+}
+
+.appointment-detail {
+    font-family: "Gill Sans";
+    color: #1C2B4B;
+    font-weight: 200;
+    text-align: left;
+}
+
+.Modal {
+    display: grid;
+    alignment: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    padding-bottom: 20px;
+    width: 350px;
+
+    background-color: cornsilk;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
