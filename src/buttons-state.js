@@ -1,6 +1,6 @@
 import {ButtonPosition} from './constants'
-let leftButtons = ['Appointment 1 ', 'Appointment 2', 'Appointment 6', 'Appointment 3', 'Appointment 5']
-let rightButtons = ['Appointment 4', 'Appointment 8', 'Blank Appointment']
+let leftButtons = ['Appointment 1']
+let rightButtons = ['Appointment 2', 'Appointment 6', 'Appointment 3', 'Appointment 5', 'Appointment 4', 'Appointment 7', 'Blank Appointment']
 let buttons = {leftButtons: leftButtons, rightButtons: rightButtons}
 let draggedIndex = null
 let observer = null
