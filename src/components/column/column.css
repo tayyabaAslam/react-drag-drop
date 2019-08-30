@@ -11,9 +11,9 @@
     font-weight: 100;
 }
 .appointments-container {
-    display: flow;
+    display: contents;
 }
 
 .row {
-    margin: 10px;
+    margin: -5px 10px 10px;
 }

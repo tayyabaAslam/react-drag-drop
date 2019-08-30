@@ -5,17 +5,20 @@ import './column.css'
 import { ButtonPosition } from '../../constants'
 import FreeScrollBar from 'react-free-scrollbar'
 import { Scrollbars } from 'react-custom-scrollbars';
+import {useDrop} from "react-dnd";
+import {moveButton, moveButtonAtEnd} from "../../buttons-state";
 
 export default function Column({ buttonPositions, totalRows, isLeft, showPopUp}) {
 
+    const loopCount = totalRows < 7 ? 7: totalRows
     let items = []
-    for (let i=0; i<10; i++) {
+    for (let i=0; i<loopCount; i++) {
         items.push(renderRow(i, buttonPositions, isLeft, totalRows, showPopUp))
     }
     const heading = isLeft ? 'Treatment plan' : 'Appointment types'
     return (
 
-        <div className="column-container">
+        <div className="column-container" >
             <h1 className='column-heading'>{heading}</h1>
             <Scrollbars className="appointments-container" autoHeight
                         autoHeightMin={500}
@@ -23,9 +26,7 @@ export default function Column({ buttonPositions, totalRows, isLeft, showPopUp})
                         autoHide
                         autoHideTimeout={10}
                         autoHideDuration={1000}>
-                {/*<FreeScrollBar autohide={true}>*/}
-                    {items}
-                {/*</FreeScrollBar>*/}
+                {items}
             </Scrollbars>
         </div>
     );
@@ -36,7 +37,7 @@ function renderRow(rowIndex, buttonPositions, isLeft, totalRows, showPopUp) {
     const showButton = rowIndex < totalRows
     return (
         <div key={rowIndex} className='row'>
-            <DropAbleRow index={rowIndex} button={buttonPositions[rowIndex]} column={column}>
+            <DropAbleRow index={rowIndex} button={buttonPositions[rowIndex]} column={column} showButton={showButton}>
                 <DraggableButton showButton={showButton}
                                  index={rowIndex}
                                  button={buttonPositions[rowIndex]}

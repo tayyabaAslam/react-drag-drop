@@ -45,14 +45,15 @@ class DraggableButton extends React.Component {
                         opacity: isDragging ? 0.5 : 1,
                         cursor: 'move',
                         paddingLeft: 5,
-                        height: 70,
+                        height: 65,
                         backgroundColor: 'white',
+                        paddingBottom: 10,
                         borderRadius: 5}}
                          onClick={() => this.setState({
                              isModalOpen: true
                          })}
                     >
-                        <h2 className='appointment-heading'>{button }</h2>
+                        <h2 className='appointment-heading'>{ button }</h2>
                         <h4 className='appointment-detail'>Click to set date</h4>
                     </div>
                 }

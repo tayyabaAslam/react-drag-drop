@@ -1,8 +1,4 @@
-.button {
-    background-color: burlywood;
-    width: 80%;
-    /*margin: 20px 10%;*/
-}
+
 
 .formInput {
     height: 20px;
@@ -13,9 +9,6 @@
     margin-top: 5px;
     height: 30px;
     font-family: "Gill Sans";
-}
-
-.container {
 }
 
 .appointment-heading {
