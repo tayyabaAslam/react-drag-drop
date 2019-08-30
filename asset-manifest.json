@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-drag-drop/static/css/main.2472ac3f.chunk.css",
-    "main.js": "/react-drag-drop/static/js/main.c3d8d19d.chunk.js",
-    "main.js.map": "/react-drag-drop/static/js/main.c3d8d19d.chunk.js.map",
+    "main.css": "/react-drag-drop/static/css/main.c6478f60.chunk.css",
+    "main.js": "/react-drag-drop/static/js/main.96e9fd5e.chunk.js",
+    "main.js.map": "/react-drag-drop/static/js/main.96e9fd5e.chunk.js.map",
     "runtime~main.js": "/react-drag-drop/static/js/runtime~main.6da1f946.js",
     "runtime~main.js.map": "/react-drag-drop/static/js/runtime~main.6da1f946.js.map",
     "static/css/2.cd14fe47.chunk.css": "/react-drag-drop/static/css/2.cd14fe47.chunk.css",
-    "static/js/2.006d4ce7.chunk.js": "/react-drag-drop/static/js/2.006d4ce7.chunk.js",
-    "static/js/2.006d4ce7.chunk.js.map": "/react-drag-drop/static/js/2.006d4ce7.chunk.js.map",
+    "static/js/2.0f124fa9.chunk.js": "/react-drag-drop/static/js/2.0f124fa9.chunk.js",
+    "static/js/2.0f124fa9.chunk.js.map": "/react-drag-drop/static/js/2.0f124fa9.chunk.js.map",
     "index.html": "/react-drag-drop/index.html",
-    "precache-manifest.4ac15c07e810afe33e36479ca1e89d74.js": "/react-drag-drop/precache-manifest.4ac15c07e810afe33e36479ca1e89d74.js",
+    "precache-manifest.44a9d3f62d48442d353e37937bf2601c.js": "/react-drag-drop/precache-manifest.44a9d3f62d48442d353e37937bf2601c.js",
     "service-worker.js": "/react-drag-drop/service-worker.js",
     "static/css/2.cd14fe47.chunk.css.map": "/react-drag-drop/static/css/2.cd14fe47.chunk.css.map",
-    "static/css/main.2472ac3f.chunk.css.map": "/react-drag-drop/static/css/main.2472ac3f.chunk.css.map"
+    "static/css/main.c6478f60.chunk.css.map": "/react-drag-drop/static/css/main.c6478f60.chunk.css.map"
   }
 }
