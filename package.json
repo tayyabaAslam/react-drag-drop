@@ -7,7 +7,7 @@
     "@y0c/react-datepicker": "^1.0.1",
     "gh-pages": "^2.1.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-custom-scrollbars": "^4.2.1",
     "react-dnd": "^9.3.4",
